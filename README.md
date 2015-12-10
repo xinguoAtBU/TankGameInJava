@@ -3,7 +3,7 @@ All the source codes are in src->com->test3, you can start game with src->com->t
 
 The game can kick start by press the button at the left-top corner of the application.
 
-The Game support following functionalities: 
+The Game supports following functionalities: 
 
 You can move the hero tank by press the four direction key on you keyboard, press J to shoot bullets.
 
