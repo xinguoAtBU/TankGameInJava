@@ -4,11 +4,9 @@ import java.util.*;
 
 class Tank
 {
-	//表示坦克的横坐标
+	//represent the location of the tank
 	public int x=0;
-	//表示坦克的纵坐标
 	public int y=0;
-	//表示坦克的方向
 	//1 represent up,2 represent down,3 represent left,4 represent right 
 	public int z=0;
 	//the tank speed
@@ -636,7 +634,7 @@ class EnemyTank extends Tank implements Runnable
 			
 			if(this.isLive==false)
 			{
-				//让坦克死亡后退出线程
+				//if tank died, exit the thread
 				break;
 			}
 			
