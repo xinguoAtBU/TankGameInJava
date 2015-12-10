@@ -11,4 +11,4 @@ enemy has 20 lives.
 
 You can view your score in the screen.
 
-This one still has some problems and I will keep doing this project to add more functions.
+This one still has some problems and I will keep doing this project to debug and add more functions.
