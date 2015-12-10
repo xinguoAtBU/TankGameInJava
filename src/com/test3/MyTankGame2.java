@@ -247,7 +247,7 @@ class MyPanel extends JPanel implements Runnable
 		g.setColor(Color.black);
 		g.drawString(recorder.getMylife()+"", 150, 470);
 		
-		//画出总成绩
+		//print the score
 		g.setColor(Color.black);
 		g.setFont(f);
 		g.drawString("Your score:", 460, 30);
