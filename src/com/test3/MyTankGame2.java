@@ -1,5 +1,5 @@
 /**
- * ¹¦ÄÜ£ºÌ¹¿Ë´óÕ½
+ * function: TankGame
  */
 package com.test3;
 
@@ -237,7 +237,7 @@ class MyPanel extends JPanel implements Runnable
 		Recorder recorder=new Recorder();
 		DrawTanks dt=new DrawTanks();
 		g.setColor(Color.black);
-		Font f=new Font("ËÎÌå",Font.BOLD,20);
+		Font f=new Font("å®‹ä½“",Font.BOLD,20);
 		g.setFont(f);
 		g.drawString("still have:", 50, 420);
 		dt.drawTank(50,450,g,0,1);
@@ -247,7 +247,7 @@ class MyPanel extends JPanel implements Runnable
 		g.setColor(Color.black);
 		g.drawString(recorder.getMylife()+"", 150, 470);
 		
-		//»­³ö×Ü³É¼¨
+		//ç”»å‡ºæ€»æˆç»©
 		g.setColor(Color.black);
 		g.setFont(f);
 		g.drawString("Your score:", 460, 30);
