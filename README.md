@@ -7,6 +7,8 @@ The Game support following functionalities:
 
 You can move the hero tank by press the four direction key on you keyboard, press J to shoot bullets.
 
-You have 3 lives and enemy has 20 lives.
+enemy has 20 lives.
 
 You can view your score in the screen.
+
+This one still have some problems and I will keep doing this project to add more functions.
