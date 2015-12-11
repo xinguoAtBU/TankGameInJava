@@ -564,25 +564,25 @@ class TankMove implements KeyListener
 	public void keyPressed(KeyEvent e) 
 	{
 		// TODO Auto-generated method stub
-		if(e.getKeyCode()==KeyEvent.VK_S)
+		if(e.getKeyCode()==KeyEvent.VK_DOWN)
 		{			
 			mp.hero.MoveDown();			
 			mp.hero.setZ(1);
 			
 		}
-		else if(e.getKeyCode()==KeyEvent.VK_W)
+		else if(e.getKeyCode()==KeyEvent.VK_UP)
 		{
 			mp.hero.MoveUp();
 			mp.hero.setZ(0);
 			
 		}
-		else if(e.getKeyCode()==KeyEvent.VK_A)
+		else if(e.getKeyCode()==KeyEvent.VK_LEFT)
 		{			
 			mp.hero.MoveLeft();			
 			mp.hero.setZ(2);
 			
 		}
-		else if(e.getKeyCode()==KeyEvent.VK_D)
+		else if(e.getKeyCode()==KeyEvent.VK_RIGHT)
 		{			
 			mp.hero.MoveRight();			
 			mp.hero.setZ(3);
